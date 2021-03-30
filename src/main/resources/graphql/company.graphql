@@ -1,0 +1,29 @@
+type Query {
+    getCompanies: [Company]
+}
+
+type Company {
+    id: ID!
+    companyName: String
+    founded: String
+    speciality: String
+    typeOfCompany: String
+    rating: Int
+    deliveryTime: Int
+    phoneNumber: String
+    email: String
+    address: [Address]
+    foods: [Food]
+}
+
+type Address {
+    city: String
+    zipCode: Int
+    street: String
+}
+
+type Food {
+    foodName: String
+    price: Float
+    addedOn: String
+}

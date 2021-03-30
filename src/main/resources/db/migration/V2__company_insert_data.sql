@@ -1,0 +1,1 @@
+INSERT INTO company VALUES (7, 'foodyloca', '2021-02-19', 'mexican food', 'food truck', 4.8, 25, '0677123345', 'foodyloca@contact.com', '{"city": "Laayoune", "zipCode": 80000, "street": "Bv Hassan 2"}')

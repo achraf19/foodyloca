@@ -1,0 +1,18 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: company-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/foodylocaDB
+    username: postgres
+    password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+  flyway:
+    url: jdbc:postgresql://localhost:5432/foodylocaDB
+    user: postgres
+    password: postgres
